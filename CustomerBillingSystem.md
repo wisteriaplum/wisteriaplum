@@ -155,7 +155,7 @@ void pay()
    void writefile()
    {
 	  FILE *fp;
-	  fp=fopen("s.dat","ab");
+	  fp=fopen("s.dat","ab");// .dat file containing the information
 	  fwrite(&customer,sizeof(customer),1,fp);
 	  fclose(fp);
 	  return;
